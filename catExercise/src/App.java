@@ -8,5 +8,6 @@ public class App {
         newCat.meow();
         Dog newDog = new Dog("Bob", 15);
         System.out.println(newDog.name);
+        System.out.println(Dog.getTotalDogs());
     }
 }
