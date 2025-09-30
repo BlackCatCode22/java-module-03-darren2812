@@ -64,4 +64,11 @@ public class Animal {
     public String getCountry(){
         return country;
     }
+
+    // constructor
+    Animal(){
+        // adds the number of animals when a new animal object is created
+        numberOfAnimals++;
+    }
 }
+
